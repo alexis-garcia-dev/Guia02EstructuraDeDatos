@@ -23,7 +23,7 @@ printf("Elementos [%d,%d]: ",fil,col);
 printf("Ingrese la matriz2:\n"); 
 for(fil=0; fil< filas; fil++) { 		
 	for(col=0; col< columnas; col++) 		{ 
-printf("Posicion [%d,%d]: ",fil,col);
+printf("Elementos [%d,%d]: ",fil,col);
  scanf("%d",&matriz2[fil][col]); 
 }	 
 } //mostrar matriz1
